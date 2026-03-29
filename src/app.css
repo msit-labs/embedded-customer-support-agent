@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-widget-bg: #ffffff;
+	--color-widget-header: #1e293b;
+	--color-bubble-user: #3b82f6;
+	--color-bubble-user-text: #ffffff;
+	--color-bubble-assistant: #f1f5f9;
+	--color-bubble-assistant-text: #1e293b;
+	--color-ticket-bg: #f0fdf4;
+	--color-ticket-border: #86efac;
+	--color-input-border: #e2e8f0;
+	--color-input-focus: #3b82f6;
+	--radius-bubble: 1rem;
+	--radius-card: 0.75rem;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+	font-family: system-ui, -apple-system, sans-serif;
+}
